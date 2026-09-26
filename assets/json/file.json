@@ -1,14 +1,26 @@
 [
+    "/assets/",
+    "/pages/",
+
     "/sitemap.xml",
     "/service-worker.js",
     "/robots.txt",
     "/offline.html",
+    "/manifest.json",
+    "/index.html",
+    "/gitprohub.md",
+    "/404.html",
+    "/403.html",
 
+    "/assets/css/",
 
+    "/assets/js/",
 
-
+    "/assets/json/",
     
-    "/assets/css/style.css",
-    "/assets/img/raima.webp",
-    "/assets/js/lokal.js"
+    "/assets/img/",
+    "/assets/img/content",
+    "/assets/img/icons/icon-192.png",
+    "/assets/img/icons assets/img/icons/icon-512.png",
+    "/assets/img/icons/icon-512.png"
 ]

@@ -1,0 +1,15 @@
+# =========================
+# 301 - Permanent Redirect
+# =========================
+
+<!-- /old-page    /new-page    301 -->
+<!-- /old-url     https://example.com/new-url    301 -->
+
+
+# =========================
+# 302 - Temporary Redirect
+# =========================
+
+<!-- /temporary-page    /new-page    302 -->
+
+<!-- /test              https://example.com/test-page    302 -->
