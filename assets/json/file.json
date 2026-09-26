@@ -1,4 +1,13 @@
 [
+    "/sitemap.xml",
+    "/service-worker.js",
+    "/robots.txt",
+    "/offline.html",
+
+
+
+
+    
     "/assets/css/style.css",
     "/assets/img/raima.webp",
     "/assets/js/lokal.js"
