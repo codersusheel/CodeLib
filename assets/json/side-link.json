@@ -1,101 +1,147 @@
 {
-  "navigation_system": [
-    {
-      "items": [
+    "navigation_system": [
         {
-          "name": "encode",
-          "icon": "fa-code",
-          "url": "/pages/encode.html",
-          "type": "dropdown",
-          "placements": [
-            "header",
-            "sidebar_laptop",
-            "sidebar_mobile"
-          ]
-        }
-      ]
-    },
-    {
-      "items": [
+            "category": "Main Menu",
+            "items": [
+                {
+                    "name": "Home",
+                    "icon": "fa-house",
+                    "url": "#",
+                    "type": "link",
+                    "placements": [
+                        "header",
+                        "sidebar_laptop",
+                        "sidebar_mobile"
+                    ]
+                },
+                {
+                    "name": "Tools",
+                    "icon": "fa-wrench",
+                    "url": "#",
+                    "type": "dropdown",
+                    "placements": [
+                        "header",
+                        "sidebar_laptop",
+                        "sidebar_mobile"
+                    ]
+                },
+                {
+                    "name": "Projects",
+                    "icon": "fa-folder",
+                    "url": "#",
+                    "type": "link",
+                    "placements": [
+                        "header",
+                        "sidebar_laptop",
+                        "sidebar_mobile"
+                    ]
+                }
+            ]
+        },
         {
-          "name": "Encode CSS",
-          "icon": "fa-code",
-          "url": "/pages/encode-css.html",
-          "type": "dropdown",
-          "placements": [
-            "header",
-            "sidebar_laptop",
-            "sidebar_mobile"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Pages & Quick Links",
-      "items": [
+            "category": "Pages & Quick Links",
+            "items": [
+                {
+                    "name": "About",
+                    "icon": "fa-circle-info",
+                    "url": "#",
+                    "type": "link",
+                    "placements": [
+                        "header",
+                        "sidebar_laptop",
+                        "sidebar_mobile"
+                    ]
+                },
+                {
+                    "name": "Pages",
+                    "icon": "fa-file",
+                    "url": "#",
+                    "type": "dropdown",
+                    "placements": [
+                        "header",
+                        "sidebar_laptop",
+                        "sidebar_mobile"
+                    ],
+                    "dropdown_items": [
+                        {
+                            "name": "Page One",
+                            "icon": "fa-file-lines",
+                            "url": "#",
+                            "placements": [
+                                "header",
+                                "sidebar_laptop",
+                                "sidebar_mobile"
+                            ]
+                        },
+                        {
+                            "name": "Page Two",
+                            "icon": "fa-file-lines",
+                            "url": "#",
+                            "placements": [
+                                "header",
+                                "sidebar_laptop",
+                                "sidebar_mobile"
+                            ]
+                        },
+                        {
+                            "name": "Page Three",
+                            "icon": "fa-file-lines",
+                            "url": "#",
+                            "placements": [
+                                "sidebar_laptop",
+                                "sidebar_mobile"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "name": "Encoded Generator",
-          "icon": "fa-gears",
-          "url": "/pages/Encoded Generator.html",
-          "type": "dropdown",
-          "placements": [
-            "header",
-            "sidebar_laptop",
-            "sidebar_mobile"
-          ]
+            "category": "Resources",
+            "items": [
+                {
+                    "name": "Documentation",
+                    "icon": "fa-book",
+                    "url": "#",
+                    "type": "link",
+                    "placements": [
+                        "header",
+                        "sidebar_laptop",
+                        "sidebar_mobile"
+                    ]
+                },
+                {
+                    "name": "Resources",
+                    "icon": "fa-box",
+                    "url": "#",
+                    "type": "dropdown",
+                    "placements": [
+                        "header",
+                        "sidebar_laptop",
+                        "sidebar_mobile"
+                    ],
+                    "dropdown_items": [
+                        {
+                            "name": "Resource One",
+                            "icon": "fa-file",
+                            "url": "#",
+                            "placements": [
+                                "sidebar_laptop",
+                                "sidebar_mobile"
+                            ]
+                        },
+                        {
+                            "name": "Resource Two",
+                            "icon": "fa-file",
+                            "url": "#",
+                            "placements": [
+                                "sidebar_laptop",
+                                "sidebar_mobile"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    {
-      "items": [
-        {
-          "name": "101 page",
-          "icon": "fa-file-lines",
-          "url": "/101.html",
-          "type": "dropdown",
-          "placements": [
-            "header",
-            "sidebar_laptop",
-            "sidebar_mobile"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Pages & Quick Links",
-      "items": [
-        {
-          "name": "Pages",
-          "url": "/pages/",
-          "icon": "fa-file",
-          "type": "dropdown",
-          "placements": [
-            "header",
-            "sidebar_laptop",
-            "sidebar_mobile"
-          ],
-          "dropdown_items": [
-            {
-              "name": "Encode",
-              "icon": "fa-code",
-              "url": "/pages/encode.html",
-              "placements": [
-                "sidebar_laptop",
-                "sidebar_mobile"
-              ]
-            },
-            {
-              "name": "Encoded Generator",
-              "icon": "fa-gears",
-              "url": "/pages/Encoded Generator.html",
-              "placements": [
-                "header",
-                "sidebar_mobile"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
